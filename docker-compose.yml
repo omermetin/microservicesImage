@@ -1,28 +1,28 @@
 version: "3"
 services:
-  _01_eureka-server:
-    image: _01_eureka-server
+  eureka-server:
+    image: eureka-server
     ports:
       - "8761:8761"
     networks:
       - my-eureka-network
 
-  _04_student-service:
-    image: _04_student-service
+  student-service:
+    image: student-service
     ports:
       - "8014:8014"
     depends_on:
-      - _01_eureka-server
+      - eureka-server
     networks:
       - my-eureka-network
 
-  _05_school-service:
-    image: _05_school-service
+  school-service:
+    image: school-service
     ports:
       - "8015:8015"
     depends_on:
-      - _01_eureka-server
-      - _04_student-service
+      - eureka-server
+      - student-service
     networks:
       - my-eureka-network
 

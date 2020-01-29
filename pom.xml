@@ -5,7 +5,7 @@
 	<groupId>com.mimaraslan</groupId>
 	<artifactId>_001_netflix-eureka-server-admin-client-hystrix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>_001_netflix-eureka-server-admin-client-hystrix</name>
+	<name>netflix-eureka-server-admin-client-hystrix</name>
 	<description>Netflix eureka server admin client hystrix project for Spring Boot</description>
 
 	<properties>
@@ -16,8 +16,8 @@
 
 	<packaging>pom</packaging>
 	<modules>
-		<module>_01_eureka-server</module>
-		<module>_04_student-service</module>
-		<module>_05_school-service</module>
+		<module>eureka-server</module>
+		<module>student-service</module>
+		<module>school-service</module>
 	</modules>
 </project>
