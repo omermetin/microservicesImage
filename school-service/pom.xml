@@ -9,9 +9,9 @@
 		<relativePath />
 	</parent>
 	<groupId>com.omrmtn</groupId>
-	<artifactId>school-service</artifactId>
+	<artifactId>schoolservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>school-service</name>
+	<name>schoolservice</name>
 	<description>Eureka Client project for Spring Boot</description>
 
 	<properties>

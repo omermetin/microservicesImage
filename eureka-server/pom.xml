@@ -9,10 +9,10 @@
 		<relativePath />
 	</parent>
 	<groupId>com.omrmtn</groupId>
-	<artifactId>eureka-server</artifactId>
+	<artifactId>eurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>eureka-server</name>
+	<name>eurekaserver</name>
 	<description>Eureka Server project for Spring Boot</description>
 
 	<properties>
@@ -158,6 +158,6 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>eureka-server</finalName>
+		<finalName>eurekaserver</finalName>
 	</build>
 </project>

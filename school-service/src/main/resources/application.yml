@@ -3,7 +3,7 @@ server:
   
 spring:    
   application:
-    name: _05_school-service      
+    name: schoolservice      
  
 eureka:         
   instance:
@@ -11,15 +11,11 @@ eureka:
     leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eurekaserver:8761/eureka/
     healthcheck:
       enabled: true
     lease:
       duration: 5
-     
-#management:
-#  security:
-#    enabled: false  
  
 logging:
   level:

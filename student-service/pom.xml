@@ -9,9 +9,9 @@
 		<relativePath />
 	</parent>
 	<groupId>com.omrmtn</groupId>
-	<artifactId>student-service</artifactId>
+	<artifactId>studentservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>student-service</name>
+	<name>studentservice</name>
 	<description>Hystrix project for Spring Boot</description>
 
 	<properties>
