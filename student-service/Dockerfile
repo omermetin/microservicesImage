@@ -1,4 +1,4 @@
-FROM java:8
+FROM java
 VOLUME /tmp
 ARG JAR_FILE
 ADD ${JAR_FILE} student-service.jar

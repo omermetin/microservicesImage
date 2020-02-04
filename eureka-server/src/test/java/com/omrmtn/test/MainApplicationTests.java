@@ -1,4 +1,4 @@
-package com.mimaraslan.test;
+package com.omrmtn.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

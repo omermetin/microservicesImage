@@ -1,4 +1,4 @@
-package com.mimaraslan.service;
+package com.omrmtn.service;
 
 import java.util.Date;
 

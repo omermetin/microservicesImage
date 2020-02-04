@@ -1,4 +1,4 @@
-package com.mimaraslan.controller;
+package com.omrmtn.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.mimaraslan.model.Student;
+
+import com.omrmtn.model.Student;
 
 @RestController
 public class StudentController {

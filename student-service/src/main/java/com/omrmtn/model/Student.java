@@ -1,4 +1,4 @@
-package com.mimaraslan.model;
+package com.omrmtn.model;
 
 public class Student {
 	private String name;

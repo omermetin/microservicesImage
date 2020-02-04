@@ -1,12 +1,13 @@
-package com.mimaraslan.controller;
+package com.omrmtn.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import com.mimaraslan.service.SchoolService;
+
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import com.omrmtn.service.SchoolService;
 
 @RestController
 public class SchoolController {

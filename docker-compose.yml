@@ -1,14 +1,14 @@
 version: "3"
 services:
   eureka-server:
-    image: eureka-server
+    image: omrmtn/eureka-server:0.0.1-SNAPSHOT
     ports:
       - "8761:8761"
     networks:
       - my-eureka-network
 
   student-service:
-    image: student-service
+    image: omrmtn/student-service:0.0.1-SNAPSHOT
     ports:
       - "8014:8014"
     depends_on:
@@ -17,7 +17,7 @@ services:
       - my-eureka-network
 
   school-service:
-    image: school-service
+    image: omrmtn/school-service:0.0.1-SNAPSHOT
     ports:
       - "8015:8015"
     depends_on:

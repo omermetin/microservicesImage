@@ -1,4 +1,4 @@
-package com.mimaraslan.util;
+package com.omrmtn.util;
 
 import java.util.Collections;
 
