@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: eureka-server
+spec:
+  selector:
+    app: eureka-server
+  ports:
+  - protocol: TCP
+    port: 8761
+    nodePort: 30001
+  type: NodePort
