@@ -1,21 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: eurekaserverdeployment
+  name: schoolservicedeployment
 spec:
   selector:
       matchLabels:
-        app: eurekaserver
+        app: schoolservice
   replicas: 3
   template:
     metadata:
       labels:
-        app: eurekaserver
+        app: schoolservice
     spec:
       containers:
-        - name: eurekaserver
-          image: omrmtn/eurekaserver:0.0.1-SNAPSHOT
+        - name: schoolservice
+          image: omrmtn/schoolservice:0.0.1-SNAPSHOT
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-            
